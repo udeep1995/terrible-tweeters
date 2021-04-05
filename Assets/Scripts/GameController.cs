@@ -36,7 +36,6 @@ public class GameController : MonoBehaviour
     {
         --LevelController.instance.chances;
         UIManager.instance.DestroyChance();
-  
     }
 
     private void RestartGame()
